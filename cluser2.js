@@ -1,13 +1,4 @@
-// function outerFunc(x) {
-//     function innerFunc(y) {
-//         return x + y;
 
-//     }
-//     innerFunc();
-// } 
-
-// const callToouter = outerFunc(5); 
-// console.log(callToouter(10));
 
 
 function outerFunction(x) {
@@ -20,7 +11,7 @@ function outerFunction(x) {
     return innerFunction;
   }
   
-  const closureExample = outerFunction(10);
+  const closureExample = outerFunction(10);  // now this is holding innerfunction return x +y
   console.log(closureExample(5)); // Output: 15
 
 

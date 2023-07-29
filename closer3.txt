@@ -1,0 +1,1 @@
+A closure occurs when a function is defined within another function and has access to the variables and parameters of the outer function, as well as its own parameters and variables. This allows the inner function to "remember" the environment in which it was created, even if it is called outside of that environment.
